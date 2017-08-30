@@ -11,7 +11,7 @@ Note that the code itself, a package called addmult, is trivial. It's an example
 This package can be installed by getting [Python 2.7.x](https://www.python.org/downloads/) and then in the terminal running:
 
 ```bash
-pip install https://github.com/dpinney/pythonPackagingExample
+pip install git+https://github.com/dpinney/pythonPackagingExample
 ```
 
 ### Deploying to PyPI
