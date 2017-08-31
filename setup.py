@@ -6,7 +6,7 @@ from setuptools.command.install import install
 class PostInstallCommand(install):
 	def run(self):
 		print '!!!RUNNING DURING INSTALL PROCESS!!!'
-		with open('~/DELETEME.txt','w+') as fileDrop:
+		with open('DELETEME.txt','w') as fileDrop:
 			fileDrop.write('written during install of addmult python package as a test')
 		install.run(self)
 
