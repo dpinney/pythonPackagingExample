@@ -1,0 +1,15 @@
+name: pythonPackagingExample Auto-Tester
+
+on: push
+
+jobs:
+  Ubuntu:
+    name: Test on Ubuntu
+    runs-on: ubuntu-20.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v2 # Checkout whichever ref that triggered this workflow
+      - name: Install
+        run: sudo python3 -m pip install git+https://github.com/dpinney/pythonPackagingExample
+      - name: Run Tests
+        run: python3 -m addmult
