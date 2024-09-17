@@ -11,6 +11,5 @@ setup(
 	url='https://github.com/dpinney/pythonPackagingExample/',
 	packages=['addmult'],
 	include_package_data=True,
-	# include all files in addmult directory including binaries:
-	# package_data={'addmult': ['*']},
+	install_requires=['numpy'],
 )
