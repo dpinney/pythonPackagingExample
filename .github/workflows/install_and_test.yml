@@ -12,4 +12,4 @@ jobs:
       - name: Install
         run: sudo python3 -m pip install git+https://github.com/dpinney/pythonPackagingExample
       - name: Run Tests
-        run: python3 -m addmult
+        run: python3 -m addmult.test
