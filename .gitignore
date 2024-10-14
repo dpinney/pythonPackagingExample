@@ -102,3 +102,7 @@ ENV/
 
 # VS Code
 *.code-workspace
+dpinney, pythonPackagingExample- An example of decently packaged Python code.webloc
+
+# MacOS
+.DS_Store
