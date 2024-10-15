@@ -6,6 +6,8 @@ setup(
 	name='addmult',
 	version='1.3',
 	description='An example of packaging. Feature: adds or multiplies numbers.',
+	long_description_content_type='text/markdown',
+	long_description=open('README.md').read(),
 	author='David Pinney',
 	author_email='david@pinney.org',
 	url='https://github.com/dpinney/pythonPackagingExample/',
