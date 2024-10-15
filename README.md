@@ -8,7 +8,7 @@ Note that the code itself, a package called addmult, is trivial. It's an example
 
 ### Installation
 
-This package can be installed by getting [Python 2.7.x](https://www.python.org/downloads/) and then in the terminal running:
+This package can be installed by getting [Python](https://www.python.org/downloads/) and then in the terminal running:
 
 ```bash
 pip install git+https://github.com/dpinney/pythonPackagingExample
